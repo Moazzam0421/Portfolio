@@ -1,5 +1,6 @@
 import { useState } from "react";
-import profile from "../assets/profile.jpg";
+import profileImg from "../assets/profile.jpg";
+
 
 const Moazzam = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -23,8 +24,8 @@ const Moazzam = () => {
 
             <div className="flex justify-center">
               <img
-                src={profile}
-                alt="Moazzam"
+                src={profileImg}
+                alt="Moazzam Profile"
                 className="w-36 h-36 sm:w-40 sm:h-40 object-cover rounded-full shadow-md border-2 border-gray-300"
               />
             </div>
