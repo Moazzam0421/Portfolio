@@ -37,7 +37,7 @@ const Navbar = () => {
                 </ul>
 
                 <a
-                    href="/Resume.pdf"
+                    href="/Moazzam_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden md:inline-block px-5 py-2 border border-black text-black rounded-lg hover:bg-black hover:text-white transition shadow-lg"
